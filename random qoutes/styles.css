@@ -1,0 +1,45 @@
+body {
+  background: tomato;
+}
+.outer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(144, 149, 210);
+  width: 70%;
+  /* height: 50%; */
+}
+
+button {
+  display: block;
+  margin: 3rem auto 0;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+  background: teal;
+  padding: 1rem 2rem;
+}
+
+.s1 {
+  /* margin: 0 2rem; */
+  font-size: 8rem;
+}
+
+.inner {
+  font-size: 2rem;
+  text-align: end;
+  padding: 1rem;
+  color: white;
+  margin: 1rem;
+}
+
+p {
+  font-size: 3rem;
+  padding: 0 5rem;
+  margin: 0;
+  color: white;
+  text-align: justify;
+}
