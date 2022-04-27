@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/65c629f0ef.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>tip calculator</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>tip calculator</h1>
+
+            <h2>how much was your bill ?</h2>
+
+            <span class="fa-solid fa-dollar-sign"></span><input type="number" min="1" max="1000000" name="money">
+            <h2>how many people sharing the bill ?</h2>
+            <span class="fa-solid fa-user"></span><input type="number" min="" max="100" name="poeple">
+            <h2>how was your service ?</h2>
+            <select name="service" id="service">
+                <option value="choose">choose</option>
+                <option value="20">Great - 20%</option>
+
+                <option value="10">Good - 10%</option>
+                <option value="2">bad - 2%</option>
+            </select>
+            <button type="submit">calculate</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>

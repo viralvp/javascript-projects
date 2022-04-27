@@ -1,0 +1,82 @@
+body {
+  background: rgb(186, 186, 209);
+}
+.container {
+  background: white;
+  display: inline-block;
+  /* padding: 2rem; */
+  border-radius: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  background: rgb(140, 140, 222);
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  padding: 1rem 0;
+
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-align: center;
+}
+h2 {
+  text-transform: capitalize;
+  padding: 0 2rem;
+}
+input {
+  display: block;
+  margin: 0 auto;
+  padding-left: 1rem;
+  width: 80%;
+  /* padding: 1rem; */
+  font-size: 2rem;
+}
+
+button {
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  background: rgb(140, 140, 222);
+  border: none;
+  margin: 1rem auto;
+  width: 80%;
+  padding: 1rem;
+}
+span {
+  background: rgb(140, 140, 222);
+  color: white;
+  padding: 1.007rem;
+  margin: 0 0 0 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  left: -1rem;
+  /* top: 1rem; */
+}
+select {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.warning {
+  width: 90%;
+  border-radius: 1rem;
+  border: 1px red solid;
+  background: rgba(255, 0, 0, 0.379);
+  color: white;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
