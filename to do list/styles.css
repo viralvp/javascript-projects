@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem;
+}
+
+.container {
+  background: rgb(226, 222, 222);
+  height: 90vh;
+}
+
+input {
+  padding: 1rem;
+  font-size: 1rem;
+
+  width: 90%;
+}
+.button2 {
+  margin: 1rem 0;
+}
+
+.items {
+  background: white;
+  display: flex;
+  border: 2px black solid;
+  margin: 1rem auto;
+  width: 97%;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.items > p {
+  /* align-self: center; */
+  font-size: 1rem;
+  margin: 0;
+}
+
+.bun {
+  border: none;
+
+  background: black;
+  color: white;
+  border-radius: 1rem;
+  margin: 0 1rem;
+}
+
+.remove {
+  text-decoration: line-through;
+}
+
+.rename {
+  border: none;
+  padding: 0;
+}
